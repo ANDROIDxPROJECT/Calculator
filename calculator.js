@@ -47,7 +47,7 @@ for (button of opButton) {
 clearButton[0].addEventListener("click", clearFunction);
 equalButton[0].addEventListener("click", equalFunction);
 
-//Enter Event Listener
+//Enter Button Event Listener
 input.onkeyup = function (e) {
   if (e.keycode === 13) {
     equalFunction();
